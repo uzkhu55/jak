@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tasks UI</title>
+  </head>
+  <link rel="stylesheet" href="css.css" />
+  <body>
+    <div class="sidebar">
+      <a href="html.html" class="tab2">
+        <button class="sidebar-btn">Task</button>
+      </a>
+      <button class="task-btn">
+        Leader’s Board <span class="task-count">+3</span>
+      </button>
+      <button class="sidebar-btn">User’s Board</button>
+      <button class="sidebar-btn">Team’s Board</button>
+      <button class="sidebar-btn">Become a leader</button>
+      <button class="sidebar-btn">Зааварчилгаа</button>
+      <button class="sidebar-btn">Log out</button>
+    </div>
+
+    <div class="main-content">
+      <div class="top-bar">
+        <input type="text" placeholder="Search" class="search-bar" />
+        <button class="position-btn">1st</button>
+        <span class="score">Миний оноо - 312</span>
+        <button class="leaderboard-btn">Leaderboard List</button>
+        <button class="profile-btn">Jaagii</button>
+      </div>
+
+      <div class="task-tabs">
+        <button class="tab-btn">Leader’s Tasks</button>
+        <button class="tab-btn">Users Tasks</button>
+        <button class="tab-btn">VIP Tasks</button>
+      </div>
+
+      <div class="task-content">
+        <div class="task-header">
+          <div class="task-number">1</div>
+          <h2>1-р үеийн даалгавар</h2>
+        </div>
+        <div class="task-list">
+          <div class="task-item">
+            <span class="task-difficulty easy"></span>
+            <span>Invite a new member (Mongolia)</span>
+            <span>0 / 1000</span>
+            <span>1,000 Points</span>
+            <button class="invite-btn">Invite</button>
+          </div>
+          <div class="task-item">
+            <span class="task-difficulty medium"></span>
+            <span>Invite a new member (Бусад Улсаас)</span>
+            <span>0 / 1000</span>
+            <span>10,000 Points</span>
+            <button class="invite-btn">Invite</button>
+          </div>
+          <div class="task-item">
+            <span class="task-difficulty hard"></span>
+            <span>Реклам бичлэг хийх</span>
+            <span>0 / 1</span>
+            <span>Views for Points</span>
+            <button class="details-btn">Send your video</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
